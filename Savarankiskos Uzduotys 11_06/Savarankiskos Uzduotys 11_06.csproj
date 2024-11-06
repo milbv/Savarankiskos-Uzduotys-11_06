@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Savarankiskos_Uzduotys_11_06</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Vartotoju duomenu analize is failo\Failas.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Vartotoju duomenu analize is failo\Failas.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Vartotoju duomenu analize is failo\Models\" />
+  </ItemGroup>
+
+</Project>

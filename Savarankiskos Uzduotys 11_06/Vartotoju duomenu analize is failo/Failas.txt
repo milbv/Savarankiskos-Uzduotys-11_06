@@ -1,0 +1,3 @@
+﻿Jonas,25
+Ona,30
+Petras,40
